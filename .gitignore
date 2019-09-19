@@ -1,0 +1,5 @@
+*.sw*
+*.zip
+AdafruitPCBRulerGerber/
+*-bak
+fp-lib-table
