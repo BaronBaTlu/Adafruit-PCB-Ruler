@@ -1,8 +1,30 @@
+# PCB Ruler 101mm Redesign
+
+This layout change is to shrink the overall design of the ruler to be 101mm so that it is
+possible to buy this design from a cheap PCB manufacture at a low cost (like JLCPCB).
+These changes should also be under CC BY-SA 3.0 like the original design. It is
+recommended to buy the original from Adafruit.
+
+List of changes:
+- Converted to KiCad format
+- Reformatted to be 101mm in length
+  - Moved some parts to other side
+  - Reformatted drill holes
+- Removed Adafruit Logo, added text to credit Adafruit
+
+## Images
+
+KiCad PCB
+
+<img src="https://user-images.githubusercontent.com/10273995/66705448-a1ea7180-ecdb-11e9-8590-181d0e30be9d.png" width="400px"><img src="https://user-images.githubusercontent.com/10273995/66705447-a1ea7180-ecdb-11e9-8656-f98267c7b2f4.png" width="400px">
+
+---
+
 # PCB for the Adafruit PCB Ruler
 
 Format is EagleCAD schematic and board layout
 
-<a href="http://www.adafruit.com/products/1554"><img src="assets/image.jpg?raw=true"
+<a href="http://www.adafruit.com/products/1554"><img src="https://user-images.githubusercontent.com/10273995/66705446-a1ea7180-ecdb-11e9-9905-af2a021d622b.jpg"
 width="500px"><br/>Click here to purchase one from the Adafruit shop</a>
 
 The first time you soldered up a surface mount component you may have been surprised
@@ -27,22 +49,3 @@ Designed by Frank Zhao for Adafruit Industries. Creative Commons Attribution, Sh
 license, check license.txt for more information. All text above must be included in any
 redistribution
 
-# 101mm redesign
-
-This layout change is to shrink the overall design of the ruler to be 101mm so that it is
-possible to buy this design from a cheap PCB manufacture at a low cost (like JLCPCB).
-These changes should also be under CC BY-SA 3.0 like the original design. It is
-recommended to buy the original from Adafruit.
-
-List of changes:
-- Converted to KiCad format
-- Reformatted to be 101mm in length
-  - Moved some parts to other side
-  - Reformatted drill holes
-- Removed Adafruit Logo, added text to credit Adafruit
-
-## Images
-
-KiCad PCB
-
-<img src="assets/KiCadModFront.png?raw=true" width="400px"><img src="assets/KiCadModBack.png?raw=true" width="400px">

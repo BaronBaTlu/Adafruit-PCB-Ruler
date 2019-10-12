@@ -3,3 +3,7 @@
 AdafruitPCBRulerGerber/
 *-bak
 fp-lib-table
+OldPCBs/
+assets/
+*.png
+*.jpg
