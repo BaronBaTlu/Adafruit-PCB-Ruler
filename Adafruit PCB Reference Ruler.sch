@@ -1,0 +1,222 @@
+EESchema Schematic File Version 4
+LIBS:Adafruit PCB Reference Ruler-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_US R1
+U 1 1 5DA75211
+P 675 800
+F 0 "R1" H 743 846 50  0000 L CNN
+F 1 "R201" H 743 755 50  0000 L CNN
+F 2 "Resistors_SMD:R_0201" V 715 790 50  0001 C CNN
+F 3 "~" H 675 800 50  0001 C CNN
+	1    675  800 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 675  650 
+NoConn ~ 675  950 
+$Comp
+L Device:R_US R2
+U 1 1 5DA7537B
+P 1000 800
+F 0 "R2" H 1068 846 50  0000 L CNN
+F 1 "R201" H 1068 755 50  0000 L CNN
+F 2 "Resistors_SMD:R_0201" V 1040 790 50  0001 C CNN
+F 3 "~" H 1000 800 50  0001 C CNN
+	1    1000 800 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1000 650 
+NoConn ~ 1000 950 
+$Comp
+L Device:R_US R3
+U 1 1 5DA753B0
+P 1300 800
+F 0 "R3" H 1368 846 50  0000 L CNN
+F 1 "R201" H 1368 755 50  0000 L CNN
+F 2 "Resistors_SMD:R_0201" V 1340 790 50  0001 C CNN
+F 3 "~" H 1300 800 50  0001 C CNN
+	1    1300 800 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 650 
+NoConn ~ 1300 950 
+$Comp
+L Device:R_US R4
+U 1 1 5DA75A4B
+P 1625 800
+F 0 "R4" H 1693 846 50  0000 L CNN
+F 1 "R402" H 1693 755 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 1665 790 50  0001 C CNN
+F 3 "~" H 1625 800 50  0001 C CNN
+	1    1625 800 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1625 650 
+NoConn ~ 1625 950 
+$Comp
+L Device:R_US R5
+U 1 1 5DA75A54
+P 1950 800
+F 0 "R5" H 2018 846 50  0000 L CNN
+F 1 "R402" H 2018 755 50  0000 L CNN
+F 2 "Resistors_SMD:R_0402" V 1990 790 50  0001 C CNN
+F 3 "~" H 1950 800 50  0001 C CNN
+	1    1950 800 
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1950 650 
+NoConn ~ 1950 950 
+$Comp
+L Device:R_US R6
+U 1 1 5DA75D7F
+P 650 1250
+F 0 "R6" H 718 1296 50  0000 L CNN
+F 1 "R603" H 718 1205 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 690 1240 50  0001 C CNN
+F 3 "~" H 650 1250 50  0001 C CNN
+	1    650  1250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 650  1100
+NoConn ~ 650  1400
+$Comp
+L Device:R_US R7
+U 1 1 5DA75EB8
+P 975 1250
+F 0 "R7" H 1043 1296 50  0000 L CNN
+F 1 "R603" H 1043 1205 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 1015 1240 50  0001 C CNN
+F 3 "~" H 975 1250 50  0001 C CNN
+	1    975  1250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 975  1100
+NoConn ~ 975  1400
+$Comp
+L Device:R_US R8
+U 1 1 5DA75F38
+P 1300 1250
+F 0 "R8" H 1368 1296 50  0000 L CNN
+F 1 "R805" H 1368 1205 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805" V 1340 1240 50  0001 C CNN
+F 3 "~" H 1300 1250 50  0001 C CNN
+	1    1300 1250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 1100
+NoConn ~ 1300 1400
+$Comp
+L Device:R_US R9
+U 1 1 5DA76051
+P 1625 1250
+F 0 "R9" H 1693 1296 50  0000 L CNN
+F 1 "R1206" H 1693 1205 50  0000 L CNN
+F 2 "Resistors_SMD:R_1206" V 1665 1240 50  0001 C CNN
+F 3 "~" H 1625 1250 50  0001 C CNN
+	1    1625 1250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1625 1100
+NoConn ~ 1625 1400
+$Comp
+L Device:R_US R10
+U 1 1 5DA76361
+P 2000 1250
+F 0 "R10" H 2068 1296 50  0000 L CNN
+F 1 "R1210" H 2068 1205 50  0000 L CNN
+F 2 "Resistors_SMD:R_1210" V 2040 1240 50  0001 C CNN
+F 3 "~" H 2000 1250 50  0001 C CNN
+	1    2000 1250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2000 1100
+NoConn ~ 2000 1400
+$Comp
+L Device:R_US R11
+U 1 1 5DA7640F
+P 2350 1275
+F 0 "R11" H 2418 1321 50  0000 L CNN
+F 1 "R2010" H 2418 1230 50  0000 L CNN
+F 2 "Resistors_SMD:R_2010" V 2390 1265 50  0001 C CNN
+F 3 "~" H 2350 1275 50  0001 C CNN
+	1    2350 1275
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2350 1125
+NoConn ~ 2350 1425
+Text Label 925  1900 0    50   ~ 0
+Via
+$Comp
+L PCB_Reference:Pin U4
+U 1 1 5DA7688C
+P 1900 1625
+F 0 "U4" V 1910 1613 50  0000 L CNN
+F 1 "2.54" V 2001 1613 50  0000 L CNN
+F 2 "Adafruit PCB Reference Ruler:Pin_Header_Straight_1x01_Pitch2.54mm" H 1900 1625 50  0001 C CNN
+F 3 "" H 1900 1625 50  0001 C CNN
+	1    1900 1625
+	0    1    1    0   
+$EndComp
+$Comp
+L PCB_Reference:Pin U1
+U 1 1 5DA76A50
+P 850 1625
+F 0 "U1" V 860 1613 50  0000 L CNN
+F 1 "1.00" V 951 1613 50  0000 L CNN
+F 2 "Adafruit PCB Reference Ruler:Pin_Header_Straight_1x01_Pitch1.00mm" H 850 1625 50  0001 C CNN
+F 3 "" H 850 1625 50  0001 C CNN
+	1    850  1625
+	0    1    1    0   
+$EndComp
+$Comp
+L PCB_Reference:Pin U2
+U 1 1 5DA76A8C
+P 1200 1625
+F 0 "U2" V 1210 1613 50  0000 L CNN
+F 1 "1.27" V 1301 1613 50  0000 L CNN
+F 2 "Adafruit PCB Reference Ruler:Pin_Header_Straight_1x01_Pitch1.27mm" H 1200 1625 50  0001 C CNN
+F 3 "" H 1200 1625 50  0001 C CNN
+	1    1200 1625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	750  1825 750  1900
+Wire Wire Line
+	1100 1900 1100 1825
+Wire Wire Line
+	1450 1900 1450 1825
+Wire Wire Line
+	750  1900 1100 1900
+Connection ~ 1100 1900
+Wire Wire Line
+	1100 1900 1450 1900
+$Comp
+L PCB_Reference:Pin U3
+U 1 1 5DA770FB
+P 1550 1625
+F 0 "U3" V 1560 1613 50  0000 L CNN
+F 1 "2.00" V 1651 1613 50  0000 L CNN
+F 2 "Adafruit PCB Reference Ruler:Pin_Header_Straight_1x01_Pitch2.00mm" H 1550 1625 50  0001 C CNN
+F 3 "" H 1550 1625 50  0001 C CNN
+	1    1550 1625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 1825 1800 1900
+Wire Wire Line
+	1800 1900 1450 1900
+Connection ~ 1450 1900
+$EndSCHEMATC
