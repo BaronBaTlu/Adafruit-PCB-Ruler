@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/miles/Documents/Projects/Adafruit-PCB-Ruler/PCB_Ruler.sch)
-    (date "Sat 19 Oct 2019 01:57:34 PM PDT")
+    (date "Sat 19 Oct 2019 03:40:57 PM PDT")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
