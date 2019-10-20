@@ -3787,7 +3787,7 @@
   (gr_text 2.0 (at 77.8129 107.5944) (layer F.SilkS) (tstamp 5D802CA7)
     (effects (font (size 2 2) (thickness 0.2)) (justify left bottom))
   )
-  (gr_text 5.0 (at 77.8129 109.6264) (layer F.SilkS) (tstamp 5D802CA6)
+  (gr_text 1.5 (at 77.8129 109.6264) (layer F.SilkS) (tstamp 5D802CA6)
     (effects (font (size 1.5 1.5) (thickness 0.15)) (justify left bottom))
   )
   (gr_text 1.2 (at 77.8383 111.2774) (layer F.SilkS) (tstamp 5D802CA5)
