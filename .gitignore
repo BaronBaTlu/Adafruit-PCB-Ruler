@@ -1,7 +1,11 @@
 *.sw*
 *.zip
-AdafruitPCBRulerGerber/
-*-bak
+*bak
+*.bck
+*.dcm
+*.cmp
+*-cache.lib
+sym-lib-table
 fp-lib-table
 OldPCBs/
 assets/
