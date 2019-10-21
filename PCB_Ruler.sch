@@ -616,7 +616,7 @@ U 1 1 5DAA5BE8
 P 725 3800
 F 0 "Q14" H 853 3846 50  0000 L CNN
 F 1 "SSOP-8" H 853 3755 50  0000 L CNN
-F 2 "Housings_SSOP:SSOP-8_2.95x2.8mm_Pitch0.65mm" H 725 3800 50  0001 C CNN
+F 2 "Housings_SSOP:TSSOP-8_3x3mm_Pitch0.65mm" H 725 3800 50  0001 C CNN
 F 3 "" H 725 3800 50  0001 C CNN
 	1    725  3800
 	1    0    0    -1  
@@ -627,7 +627,7 @@ U 1 1 5DAA5DFD
 P 1350 3800
 F 0 "Q13" H 1478 3846 50  0000 L CNN
 F 1 "SSOP-16" H 1478 3755 50  0000 L CNN
-F 2 "Housings_SSOP:SSOP-16_3.9x4.9mm_Pitch0.635mm" H 1350 3800 50  0001 C CNN
+F 2 "Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm" H 1350 3800 50  0001 C CNN
 F 3 "" H 1350 3800 50  0001 C CNN
 	1    1350 3800
 	1    0    0    -1  
@@ -920,12 +920,12 @@ $EndComp
 $Comp
 L PCB_Reference:Misc_Pin1 Q18
 U 1 1 5DAD2CA7
-P 2600 3800
-F 0 "Q18" H 2728 3846 50  0000 L CNN
-F 1 "QFNx24" H 2728 3755 50  0000 L CNN
-F 2 "Housings_DFN_QFN:QFN-24-1EP_3x3mm_Pitch0.4mm" H 2600 3800 50  0001 C CNN
-F 3 "" H 2600 3800 50  0001 C CNN
-	1    2600 3800
+P 3050 3800
+F 0 "Q18" H 3178 3846 50  0000 L CNN
+F 1 "QFNx24" H 3178 3755 50  0000 L CNN
+F 2 "Housings_DFN_QFN:QFN-24-1EP_3x3mm_Pitch0.4mm" H 3050 3800 50  0001 C CNN
+F 3 "" H 3050 3800 50  0001 C CNN
+	1    3050 3800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1104,8 +1104,108 @@ Wire Wire Line
 	550  2975 550  3400
 Connection ~ 5600 6625
 Connection ~ 550  3400
-Wire Wire Line
-	550  3400 550  6625
 Text Label 5700 6625 0    50   ~ 0
 Pin1
+Wire Wire Line
+	2600 4000 2050 4000
+Wire Wire Line
+	550  3400 550  4000
+Connection ~ 550  4000
+Wire Wire Line
+	550  4000 550  4375
+Connection ~ 725  4000
+Wire Wire Line
+	725  4000 550  4000
+Connection ~ 1350 4000
+Wire Wire Line
+	1350 4000 725  4000
+Connection ~ 2050 4000
+Wire Wire Line
+	2050 4000 1350 4000
+Connection ~ 550  4375
+Wire Wire Line
+	550  4375 550  4825
+Connection ~ 725  4375
+Wire Wire Line
+	725  4375 550  4375
+Connection ~ 1350 4375
+Wire Wire Line
+	1350 4375 725  4375
+Connection ~ 2075 4375
+Wire Wire Line
+	2075 4375 1350 4375
+$Comp
+L PCB_Reference:Misc_Pin1 Q23
+U 1 1 5DAE3729
+P 2600 3800
+F 0 "Q23" H 2728 3846 50  0000 L CNN
+F 1 "SOIC" H 2728 3755 50  0000 L CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 2600 3800 50  0001 C CNN
+F 3 "" H 2600 3800 50  0001 C CNN
+	1    2600 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 4000 2600 4000
+Connection ~ 2600 4000
+$Comp
+L PCB_Reference:Misc_Pin1 Q24
+U 1 1 5DAE5AFC
+P 3425 4175
+F 0 "Q24" H 3553 4221 50  0000 L CNN
+F 1 "TSOP-48" H 3553 4130 50  0000 L CNN
+F 2 "Housings_SSOP:TSSOP-48_6.1x12.5mm_Pitch0.5mm" H 3425 4175 50  0001 C CNN
+F 3 "" H 3425 4175 50  0001 C CNN
+	1    3425 4175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  4825 550  4825
+Connection ~ 550  4825
+Wire Wire Line
+	550  4825 550  6625
+$Comp
+L PCB_Reference:Misc_PinA1 Q25
+U 1 1 5DAE81B9
+P 750 4625
+F 0 "Q25" H 878 4671 50  0000 L CNN
+F 1 "BGA_DDR3" H 878 4580 50  0000 L CNN
+F 2 "Housings_BGA:BGA-96_2x3x16_9.0x13.0mm_Pitch0.8mm" H 750 4625 50  0001 C CNN
+F 3 "" H 750 4625 50  0001 C CNN
+	1    750  4625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2075 4375 2675 4375
+Connection ~ 2675 4375
+Wire Wire Line
+	2675 4375 3425 4375
+$Comp
+L PCB_Reference:Misc_PinA1 Q26
+U 1 1 5DAED8DD
+P 1400 4625
+F 0 "Q26" H 1528 4671 50  0000 L CNN
+F 1 "BGA_10x" H 1528 4580 50  0000 L CNN
+F 2 "Housings_BGA:BGA-100_10x10_9.0x9.0mm_Pitch0.8mm" H 1400 4625 50  0001 C CNN
+F 3 "" H 1400 4625 50  0001 C CNN
+	1    1400 4625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4825 750  4825
+Connection ~ 750  4825
+$Comp
+L PCB_Reference:Misc_PinA1 Q27
+U 1 1 5DAF00CC
+P 1975 4625
+F 0 "Q27" H 2103 4671 50  0000 L CNN
+F 1 "BGA_4x" H 2103 4580 50  0000 L CNN
+F 2 "Housings_BGA:BGA-16_4x4_1.92x1.92mm_Pitch0.5mm" H 1975 4625 50  0001 C CNN
+F 3 "" H 1975 4625 50  0001 C CNN
+	1    1975 4625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1975 4825 1400 4825
+Connection ~ 1400 4825
 $EndSCHEMATC
