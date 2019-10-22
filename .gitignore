@@ -1,6 +1,5 @@
 *.sw*
 *.zip
-AdafruitPCBRulerGerber/
 *bak
 *.bck
 *.dcm
@@ -8,7 +7,9 @@ AdafruitPCBRulerGerber/
 *-cache.lib
 sym-lib-table
 fp-lib-table
+fp-info-cache
 OldPCBs/
 assets/
 *.png
 *.jpg
+Package_BGA.pretty
