@@ -137,63 +137,61 @@ NoConn ~ 3630 1140
 $Comp
 L PCB_Reference:Pin U4
 U 1 1 5DA7688C
-P 6750 6350
-F 0 "U4" V 6760 6338 50  0000 L CNN
-F 1 "2.54" V 6851 6338 50  0000 L CNN
-F 2 "Adafruit PCB Reference Ruler:Pin_Header_Straight_1x01_Pitch2.54mm" H 6750 6350 50  0001 C CNN
-F 3 "" H 6750 6350 50  0001 C CNN
-	1    6750 6350
+P 1795 6235
+F 0 "U4" V 1805 6223 50  0000 L CNN
+F 1 "2.54" V 1896 6223 50  0000 L CNN
+F 2 "Adafruit PCB Reference Ruler:Pin_Header_Straight_1x01_Pitch2.54mm" H 1795 6235 50  0001 C CNN
+F 3 "" H 1795 6235 50  0001 C CNN
+	1    1795 6235
 	0    1    1    0   
 $EndComp
 $Comp
 L PCB_Reference:Pin U1
 U 1 1 5DA76A50
-P 5700 6350
-F 0 "U1" V 5710 6338 50  0000 L CNN
-F 1 "1.00" V 5801 6338 50  0000 L CNN
-F 2 "Adafruit PCB Reference Ruler:Pin_Header_Straight_1x01_Pitch1.00mm" H 5700 6350 50  0001 C CNN
-F 3 "" H 5700 6350 50  0001 C CNN
-	1    5700 6350
+P 745 6235
+F 0 "U1" V 755 6223 50  0000 L CNN
+F 1 "1.00" V 846 6223 50  0000 L CNN
+F 2 "Adafruit PCB Reference Ruler:Pin_Header_Straight_1x01_Pitch1.00mm" H 745 6235 50  0001 C CNN
+F 3 "" H 745 6235 50  0001 C CNN
+	1    745  6235
 	0    1    1    0   
 $EndComp
 $Comp
 L PCB_Reference:Pin U2
 U 1 1 5DA76A8C
-P 6050 6350
-F 0 "U2" V 6060 6338 50  0000 L CNN
-F 1 "1.27" V 6151 6338 50  0000 L CNN
-F 2 "Adafruit PCB Reference Ruler:Pin_Header_Straight_1x01_Pitch1.27mm" H 6050 6350 50  0001 C CNN
-F 3 "" H 6050 6350 50  0001 C CNN
-	1    6050 6350
+P 1095 6235
+F 0 "U2" V 1105 6223 50  0000 L CNN
+F 1 "1.27" V 1196 6223 50  0000 L CNN
+F 2 "Adafruit PCB Reference Ruler:Pin_Header_Straight_1x01_Pitch1.27mm" H 1095 6235 50  0001 C CNN
+F 3 "" H 1095 6235 50  0001 C CNN
+	1    1095 6235
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5600 6550 5600 6625
+	645  6435 645  6510
 Wire Wire Line
-	5950 6625 5950 6550
+	995  6510 995  6435
 Wire Wire Line
-	6300 6625 6300 6550
+	1345 6510 1345 6435
+Connection ~ 995  6510
 Wire Wire Line
-	5600 6625 5950 6625
-Connection ~ 5950 6625
-Wire Wire Line
-	5950 6625 6300 6625
+	995  6510 1345 6510
 $Comp
 L PCB_Reference:Pin U3
 U 1 1 5DA770FB
-P 6400 6350
-F 0 "U3" V 6410 6338 50  0000 L CNN
-F 1 "2.00" V 6501 6338 50  0000 L CNN
-F 2 "Adafruit PCB Reference Ruler:Pin_Header_Straight_1x01_Pitch2.00mm" H 6400 6350 50  0001 C CNN
-F 3 "" H 6400 6350 50  0001 C CNN
-	1    6400 6350
+P 1445 6235
+F 0 "U3" V 1455 6223 50  0000 L CNN
+F 1 "2.00" V 1546 6223 50  0000 L CNN
+F 2 "Adafruit PCB Reference Ruler:Pin_Header_Straight_1x01_Pitch2.00mm" H 1445 6235 50  0001 C CNN
+F 3 "" H 1445 6235 50  0001 C CNN
+	1    1445 6235
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6650 6550 6650 6625
+	1695 6435 1695 6510
 Wire Wire Line
-	6650 6625 6300 6625
-Connection ~ 6300 6625
+	1695 6510 1345 6510
+Connection ~ 1345 6510
 $Comp
 L pspice:DIODE D1
 U 1 1 5DA8B211
@@ -685,129 +683,129 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5DABA3C9
-P 675 6475
-F 0 "H1" H 775 6521 50  0000 L CNN
-F 1 "08AWG" H 775 6430 50  0000 L CNN
-F 2 "PCB_Ruler:Mounting_Hole_08AWG" H 675 6475 50  0001 C CNN
-F 3 "~" H 675 6475 50  0001 C CNN
-	1    675  6475
+P 695 6735
+F 0 "H1" H 795 6781 50  0000 L CNN
+F 1 "08AWG" H 795 6690 50  0000 L CNN
+F 2 "PCB_Ruler:Mounting_Hole_08AWG" H 695 6735 50  0001 C CNN
+F 3 "~" H 695 6735 50  0001 C CNN
+	1    695  6735
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5DABAFF7
-P 1125 6475
-F 0 "H2" H 1225 6521 50  0000 L CNN
-F 1 "10AWG" H 1225 6430 50  0000 L CNN
-F 2 "PCB_Ruler:Mounting_Hole_10AWG" H 1125 6475 50  0001 C CNN
-F 3 "~" H 1125 6475 50  0001 C CNN
-	1    1125 6475
+P 1145 6735
+F 0 "H2" H 1245 6781 50  0000 L CNN
+F 1 "10AWG" H 1245 6690 50  0000 L CNN
+F 2 "PCB_Ruler:Mounting_Hole_10AWG" H 1145 6735 50  0001 C CNN
+F 3 "~" H 1145 6735 50  0001 C CNN
+	1    1145 6735
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5DABB447
-P 1550 6475
-F 0 "H3" H 1650 6521 50  0000 L CNN
-F 1 "12AWG" H 1650 6430 50  0000 L CNN
-F 2 "PCB_Ruler:Mounting_Hole_12AWG" H 1550 6475 50  0001 C CNN
-F 3 "~" H 1550 6475 50  0001 C CNN
-	1    1550 6475
+P 1570 6735
+F 0 "H3" H 1670 6781 50  0000 L CNN
+F 1 "12AWG" H 1670 6690 50  0000 L CNN
+F 2 "PCB_Ruler:Mounting_Hole_12AWG" H 1570 6735 50  0001 C CNN
+F 3 "~" H 1570 6735 50  0001 C CNN
+	1    1570 6735
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5DABB63D
-P 2000 6475
-F 0 "H4" H 2100 6521 50  0000 L CNN
-F 1 "14AWG" H 2100 6430 50  0000 L CNN
-F 2 "PCB_Ruler:Mounting_Hole_14AWG" H 2000 6475 50  0001 C CNN
-F 3 "~" H 2000 6475 50  0001 C CNN
-	1    2000 6475
+P 2020 6735
+F 0 "H4" H 2120 6781 50  0000 L CNN
+F 1 "14AWG" H 2120 6690 50  0000 L CNN
+F 2 "PCB_Ruler:Mounting_Hole_14AWG" H 2020 6735 50  0001 C CNN
+F 3 "~" H 2020 6735 50  0001 C CNN
+	1    2020 6735
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5DABB839
-P 2425 6475
-F 0 "H5" H 2525 6521 50  0000 L CNN
-F 1 "16AWG" H 2525 6430 50  0000 L CNN
-F 2 "PCB_Ruler:Mounting_Hole_16AWG" H 2425 6475 50  0001 C CNN
-F 3 "~" H 2425 6475 50  0001 C CNN
-	1    2425 6475
+P 2445 6735
+F 0 "H5" H 2545 6781 50  0000 L CNN
+F 1 "16AWG" H 2545 6690 50  0000 L CNN
+F 2 "PCB_Ruler:Mounting_Hole_16AWG" H 2445 6735 50  0001 C CNN
+F 3 "~" H 2445 6735 50  0001 C CNN
+	1    2445 6735
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 5DABBB90
-P 2850 6475
-F 0 "H6" H 2950 6521 50  0000 L CNN
-F 1 "18AWG" H 2950 6430 50  0000 L CNN
-F 2 "PCB_Ruler:Mounting_Hole_18AWG" H 2850 6475 50  0001 C CNN
-F 3 "~" H 2850 6475 50  0001 C CNN
-	1    2850 6475
+P 680 6925
+F 0 "H6" H 780 6971 50  0000 L CNN
+F 1 "18AWG" H 780 6880 50  0000 L CNN
+F 2 "PCB_Ruler:Mounting_Hole_18AWG" H 680 6925 50  0001 C CNN
+F 3 "~" H 680 6925 50  0001 C CNN
+	1    680  6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H7
 U 1 1 5DABBD90
-P 3300 6475
-F 0 "H7" H 3400 6521 50  0000 L CNN
-F 1 "20AWG" H 3400 6430 50  0000 L CNN
-F 2 "PCB_Ruler:Mounting_Hole_20AWG" H 3300 6475 50  0001 C CNN
-F 3 "~" H 3300 6475 50  0001 C CNN
-	1    3300 6475
+P 1130 6925
+F 0 "H7" H 1230 6971 50  0000 L CNN
+F 1 "20AWG" H 1230 6880 50  0000 L CNN
+F 2 "PCB_Ruler:Mounting_Hole_20AWG" H 1130 6925 50  0001 C CNN
+F 3 "~" H 1130 6925 50  0001 C CNN
+	1    1130 6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H8
 U 1 1 5DABBF9E
-P 3750 6475
-F 0 "H8" H 3850 6521 50  0000 L CNN
-F 1 "22AWG" H 3850 6430 50  0000 L CNN
-F 2 "PCB_Ruler:Mounting_Hole_22AWG" H 3750 6475 50  0001 C CNN
-F 3 "~" H 3750 6475 50  0001 C CNN
-	1    3750 6475
+P 1580 6925
+F 0 "H8" H 1680 6971 50  0000 L CNN
+F 1 "22AWG" H 1680 6880 50  0000 L CNN
+F 2 "PCB_Ruler:Mounting_Hole_22AWG" H 1580 6925 50  0001 C CNN
+F 3 "~" H 1580 6925 50  0001 C CNN
+	1    1580 6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H9
 U 1 1 5DABC1B6
-P 4200 6475
-F 0 "H9" H 4300 6521 50  0000 L CNN
-F 1 "24AWG" H 4300 6430 50  0000 L CNN
-F 2 "PCB_Ruler:Mounting_Hole_24AWG" H 4200 6475 50  0001 C CNN
-F 3 "~" H 4200 6475 50  0001 C CNN
-	1    4200 6475
+P 2030 6925
+F 0 "H9" H 2130 6971 50  0000 L CNN
+F 1 "24AWG" H 2130 6880 50  0000 L CNN
+F 2 "PCB_Ruler:Mounting_Hole_24AWG" H 2030 6925 50  0001 C CNN
+F 3 "~" H 2030 6925 50  0001 C CNN
+	1    2030 6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H10
 U 1 1 5DABC3CC
-P 4625 6475
-F 0 "H10" H 4725 6521 50  0000 L CNN
-F 1 "26AWG" H 4725 6430 50  0000 L CNN
-F 2 "PCB_Ruler:Mounting_Hole_26AWG" H 4625 6475 50  0001 C CNN
-F 3 "~" H 4625 6475 50  0001 C CNN
-	1    4625 6475
+P 2455 6925
+F 0 "H10" H 2555 6971 50  0000 L CNN
+F 1 "26AWG" H 2555 6880 50  0000 L CNN
+F 2 "PCB_Ruler:Mounting_Hole_26AWG" H 2455 6925 50  0001 C CNN
+F 3 "~" H 2455 6925 50  0001 C CNN
+	1    2455 6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H11
 U 1 1 5DABC5F2
-P 5050 6475
-F 0 "H11" H 5150 6521 50  0000 L CNN
-F 1 "28AWG" H 5150 6430 50  0000 L CNN
-F 2 "PCB_Ruler:Mounting_Hole_28AWG" H 5050 6475 50  0001 C CNN
-F 3 "~" H 5050 6475 50  0001 C CNN
-	1    5050 6475
+P 2880 6925
+F 0 "H11" H 2980 6971 50  0000 L CNN
+F 1 "28AWG" H 2980 6880 50  0000 L CNN
+F 2 "PCB_Ruler:Mounting_Hole_28AWG" H 2880 6925 50  0001 C CNN
+F 3 "~" H 2880 6925 50  0001 C CNN
+	1    2880 6925
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	575  3045 7075 3045
 Wire Notes Line
-	725  6050 6900 6050
-Text Notes 675  6225 0    100  ~ 0
+	615  5750 6790 5750
+Text Notes 565  5925 0    100  ~ 0
 Holes and measurements
 Text Notes 1190 725  0    100  ~ 0
 Top - Resistance, Diodes, Transistors, oscillator, drawings
@@ -964,10 +962,7 @@ Wire Wire Line
 Connection ~ 3950 3580
 Wire Wire Line
 	3950 3580 4425 3580
-Wire Wire Line
-	5600 6625 550  6625
-Connection ~ 5600 6625
-Text Label 5700 6625 0    50   ~ 0
+Text Label 745  6510 0    50   ~ 0
 Pin1
 Wire Wire Line
 	2600 4000 2050 4000
@@ -1524,10 +1519,78 @@ Wire Wire Line
 Connection ~ 1950 840 
 Wire Wire Line
 	550  4800 550  5230
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5DB48870
+P 2055 6310
+F 0 "TP1" H 2113 6428 50  0000 L CNN
+F 1 "TestPoint" H 2113 6337 50  0000 L CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_1.0x1.0mm" H 2255 6310 50  0001 C CNN
+F 3 "~" H 2255 6310 50  0001 C CNN
+	1    2055 6310
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	750  5230 550  5230
+	2055 6310 2055 6510
+Connection ~ 1695 6510
+$Comp
+L Device:Jumper JP1
+U 1 1 5DBAEE3D
+P 3660 6510
+F 0 "JP1" H 3660 6774 50  0000 C CNN
+F 1 "Jumper" H 3660 6683 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 3660 6510 50  0001 C CNN
+F 3 "~" H 3660 6510 50  0001 C CNN
+	1    3660 6510
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3960 6510
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5DBBB4F4
+P 2500 6310
+F 0 "TP2" H 2558 6428 50  0000 L CNN
+F 1 "TestPoint" H 2558 6337 50  0000 L CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_d1.0mm" H 2700 6310 50  0001 C CNN
+F 3 "~" H 2700 6310 50  0001 C CNN
+	1    2500 6310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 6310 2500 6510
+Connection ~ 2500 6510
+Wire Wire Line
+	1695 6510 2055 6510
+Connection ~ 2055 6510
+Wire Wire Line
+	2055 6510 2500 6510
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5DBDA0D2
+P 2930 6300
+F 0 "TP3" H 2988 6418 50  0000 L CNN
+F 1 "TestPoint" H 2988 6327 50  0000 L CNN
+F 2 "Connectors_TestPoints:Test_Point_Pad_2.0x2.0mm" H 3130 6300 50  0001 C CNN
+F 3 "~" H 3130 6300 50  0001 C CNN
+	1    2930 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2930 6300 2930 6510
+Wire Wire Line
+	2500 6510 2930 6510
+Connection ~ 2930 6510
+Wire Wire Line
+	2930 6510 3360 6510
 Connection ~ 750  5230
+Wire Wire Line
+	550  5230 750  5230
+Wire Wire Line
+	550  5230 550  6510
 Connection ~ 550  5230
 Wire Wire Line
-	550  5230 550  6625
+	550  6510 645  6510
+Connection ~ 645  6510
+Wire Wire Line
+	645  6510 995  6510
 $EndSCHEMATC

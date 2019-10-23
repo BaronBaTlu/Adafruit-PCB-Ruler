@@ -2,8 +2,8 @@
 
 This layout change is to shrink the overall design of the ruler to be 101mm so that it is
 possible to buy this design from a cheap PCB manufacture at a low cost (like JLCPCB).
-These changes should also be under CC BY-SA 3.0 like the original design. It is
-recommended to buy the original from Adafruit.
+These changes are under CC BY-SA 3.0 like the original design. It is recommended to buy
+the original from Adafruit.
 
 List of changes:
 - Converted to KiCad format
@@ -11,12 +11,21 @@ List of changes:
   - Moved some parts to other side
   - Reformatted drill holes
 - Removed Adafruit Logo, added text to credit Adafruit
+- Added lots of new parts (v2)
+    - Resistors, diodes, transistors, QF\* and BGA
+    - Ruler now in 1/10, 1/16 and mm
+    - Added schematic to make part selection easier
+    - tied all pin 1s together to make it easier to tell which pin is pin 1
+
+Note: JLCJLCJLCJLC option is for JLCPCB to place the text of the printing. If using this
+supplier, make sure the board is 1.6mm is width so it does not bend, and can also be added
+onto another order for ~$4 for 5 PCB rulers.
 
 ## Images
 
 KiCad PCB
 
-<img src="https://user-images.githubusercontent.com/10273995/66705448-a1ea7180-ecdb-11e9-8590-181d0e30be9d.png" width="400px"><img src="https://user-images.githubusercontent.com/10273995/66705447-a1ea7180-ecdb-11e9-8656-f98267c7b2f4.png" width="400px">
+<img src="https://user-images.githubusercontent.com/10273995/67438237-c978ee00-f5a7-11e9-986b-de8059c62ba9.png" width="400px"><img src="https://user-images.githubusercontent.com/10273995/67438236-c978ee00-f5a7-11e9-9059-d458f1a74493.png" width="400px">
 
 ---
 

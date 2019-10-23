@@ -1,5 +1,6 @@
 *.sw*
 *.zip
+*.net
 *bak
 *.bck
 *.dcm
@@ -13,3 +14,4 @@ assets/
 *.png
 *.jpg
 Package_BGA.pretty
+Jumper.pretty
